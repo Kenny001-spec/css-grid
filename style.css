@@ -1,0 +1,43 @@
+/* Grid-1-Solution */
+body {
+    background-color: #ede0d4;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: #9c6644;
+    padding: 10px;
+}
+
+.grid-container div {
+    text-align: center;
+    font-size: 25px;
+    background-color:  rgba(225, 225, 225, 0.8);
+    padding: 20px 0;
+}
+
+/* Grid-2 Solutuion */
+.container, .row {
+    width: 100%;
+    
+}
+
+.row:before, .row:after {
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.col1, .col2, .col3 {
+    float: left;
+    padding: 1px;
+    margin: 1px;
+}
